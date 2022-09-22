@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+body{
+    font-family: 'Lato', sans-serif;
+    color: #424551;
+    font-size: 16px;
+}
+.title{
+    padding-top: 20px;
+}
+.title h1{
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 130%;
+    color: #1E212C;
+    margin-bottom: 92px;
+}
+.content {
+    width: 810px;
+    margin: 0 auto;
+}
+.content_image {
+    margin-bottom: 60px;
+    max-width: 100%;
+}
+.content_image img{
+    border-radius: 4px;
+}
+.text_bold {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    color: #1E212C;
+    margin-bottom: 24px;
+}
+.text_regular {
+    line-height: 160%;
+    margin-bottom: 48px;
+}
+.paragraph{
+    margin: 0 0 48px 58px;
+}
+.content_list {
+    font-size: 16px;
+    line-height: 160%;
+}
+.content_list_text{
+    margin-bottom: 24px;
+}
+.list{
+    margin-bottom: 20px;
+}
+.list li{
+    padding: 0 0 4px 32px;
+}
+.text_end {
+    font-size: 16px;
+    line-height: 160%;
+    margin-bottom: 60px;
+}
+/*-----------------------------------------------*/
+footer{
+    color: black;
+    margin-bottom: 60px;
+}
+.footer_title{
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.circle{
+    margin: 70px;
+    background: plum;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: inline-block;
+    box-shadow: 3px 2px 5px 5px rgba(121, 98, 121, 0.462);
+    border: 5px solid rgba(255, 232, 255, 0.524);
+    outline: 5px dashed rgba(89, 255, 0, 0.882);
+}
+.sun{
+    width: 200px;
+    height: 200px;
+    background: rgb(255, 247, 0);
+    border-radius: 50%;
+    display: inline-block;
+    margin: 50px 600px;
+    box-shadow: 0px 0px 100px 5px yellow;
+}
+.block{
+    /*display: inline;*/
+    opacity:0.9;
+}
+.block_2{
+    visibility: hidden;
+    /*display: none;*/
+}
+span{
+    /*display: block;*/
+    display: none;
+}
+.image{
+    /*display: inline;*/
+    opacity: 0.5;
+}
+.image img{
+    min-width: 200px;
+    max-width: 500px;
+}
